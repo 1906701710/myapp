@@ -1,21 +1,143 @@
-/**index.wxss**/
-.userinfo {
+.container{
+  font-size: 30rpx;
+  background-color: #F8F8F8;
+  overflow: hidden;
+}
+.nav-wrap{
+  box-shadow: 0px 15rpx 15rpx #cccccc;  
+  padding-bottom: 50rpx;
+  padding-top: 50rpx;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  color: white;
+  width: 690rpx;
+  margin:  0 auto;
+  background-color: #42B8FF;
+  margin-top: 30rpx;
+  border-radius: 15rpx;
 }
-
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+.concent{
+  line-height: 100rpx;
+  display: block;
+  text-align: center;
 }
-
-.userinfo-nickname {
-  color: #aaa;
+.menu-wrap{
+  width: 230px;
+  display: inline-block;
 }
-
-.usermotto {
-  margin-top: 200px;
+.icon{
+  text-align: center;
+  display: block;
+}
+.main-wrap{
+  width: 690rpx;
+  background: white;
+  margin: 0 auto;
+  margin-top: 50rpx;
+  border-radius: 15rpx;
+  box-shadow: 0px 15rpx 15rpx #cccccc;  
+}
+.student-wrap{
+  padding-top: 50rpx;
+  padding-bottom: 50rpx;
+  display: flex;
+  width: 600rpx;
+  margin: 0 auto;
+  line-height: 100rpx;
+  justify-content: space-around;
+  border-bottom: 1px solid #EBEBEB;
+}
+.student-a{
+  overflow: hidden;
+  position: relative;
+  padding-right: 100rpx;
+  border-right: 1px solid #EBEBEB;
+}
+.all1-icon{
+  margin-right: 20rpx;
+}
+.pipixia{
+  transform: rotate(45deg);
+  text-align: center;
+  position: absolute;
+  font-size: 25rpx;
+  line-height: 40rpx;
+  width: 200rpx;
+  background-color: red;
+  color: white;
+  top: 15rpx;
+  left:127rpx;
+}
+.shop-wrap{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30rpx;
+  padding-bottom: 50rpx;
+  margin-left: 10px;
+}
+.all2-icon{
+  display: block;
+  text-align: center;
+}
+.coment{
+  display: block;
+}
+.shop-a{
+  border-right: 1px solid #EBEBEB;
+  padding-right: 20rpx;
+}
+.border-sole{
+  border-right: none;
+}
+.usermotto{
+  box-sizing: border-box;
+  box-shadow: 0px 15rpx 15rpx #cccccc;  
+  width: 690rpx;
+  margin: 0 auto;
+  background-color: white;
+  margin-top: 30rpx;
+  border-radius: 15rpx;
+}
+.usermotto{
+  padding-top: 40rpx;
+  padding-left: 40rpx;
+}
+.photo-hearde{
+  /* display: inline-block; */
+  float: left;
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 10rpx;
+}
+.message{
+  /* display: inline-block; */
+  float: left;
+  padding-left: 40rpx;
+  line-height: 53rpx;
+  color: #ABABAB;
+}
+.login-wrap{
+  color: white;
+  /* display: inline-block; */
+  float: left;
+  background-color: #42B8FF;
+  width: 350rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-radius: 50rpx;
+  text-align: center;
+  margin-top: -30rpx;
+  margin-top: 40rpx;
+}
+.grade-wrap{
+  clear: both;  
+  line-height: 100rpx;
+  color: #E6E6E6;
+  margin-bottom: 30rpx;
+}
+.grade{
+  background-color: #D0D0D0;
+  padding: 3rpx 10rpx;
+  color: white;
+  border-radius: 10rpx;
+  margin-right: 20rpx;
 }

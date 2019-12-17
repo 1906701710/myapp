@@ -3,11 +3,50 @@
     "pages/index/index",
     "pages/logs/logs"
   ],
+  "tabBar": {
+    "color": "3969696",
+    "selectedColor":"#4FBFFF",
+    "list": [
+      { 
+       "selectedIconPath": "image/icon_n7h5g0i5as8/xiangji.png",
+       "iconPath":"image/icon_cey4rp2y43c/xiangji.png",
+        "pagePath": "pages/index/index",
+        "text": "拍题"
+      },
+      {
+        "selectedIconPath": "image/icon_n7h5g0i5as8/shipin.png",
+        "iconPath": "image/icon_cey4rp2y43c/shipin.png",
+        "pagePath": "pages/logs/logs",
+        "text": "直播课"
+      },
+      {
+        "selectedIconPath": "image/icon_n7h5g0i5as8/wenben.png",
+        "iconPath": "image/icon_cey4rp2y43c/wenben.png",
+        "pagePath": "pages/logs/logs",
+        "text": "一对一"
+      },
+      {
+        "selectedIconPath": "image/icon_n7h5g0i5as8/baibaoxiang.png",
+        "iconPath": "image/icon_cey4rp2y43c/baibaoxiang.png",
+        "pagePath": "pages/logs/logs",
+        "text": "百宝箱"
+      },
+      {
+        "selectedIconPath": "image/icon_n7h5g0i5as8/wodedangxuan.png",
+        "iconPath": "image/icon_cey4rp2y43c/wodedangxuan.png", 
+        "pagePath": "pages/logs/logs",
+        "text": "我的"
+      }
+    ]
+  },
   "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#42B8FF",
+    "navigationBarTitleText": "微信小程序",
+    "navigationBarTextStyle": "white",
+    "backgroundColor":"#000",
+    "enablePullDownRefresh":true,
+    "backgroundColorTop":"#42B8FF"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"

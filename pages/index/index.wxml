@@ -1,13 +1,64 @@
 <!--index.wxml-->
 <view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
+  <view class="nav-wrap">
+    <navigator class="menu-wrap">
+      <mp-icon class="icon" type="field" icon="play2" color="white" size="{{25}}"></mp-icon>
+      <text class="concent">我的直播课</text>
+    </navigator>
+    <navigator class="menu-wrap">
+      <mp-icon class="icon" type="field" icon="transfer-text" color="white" size="{{25}}"></mp-icon>
+      <text class="concent">我的一对一</text>
+    </navigator>
+    <navigator class="menu-wrap">
+      <mp-icon class="icon" type="field" icon="group-detail" color="white" size="{{25}}"></mp-icon>
+      <text class="concent">我的老师</text>
+    </navigator>
+  </view>
+  <view class="main-wrap">
+    <view class="" class="student-wrap">
+      <navigator class="student-a">
+        <mp-icon class="all1-icon" icon="comment" color="#d1f2f9" size="{{25}}"></mp-icon>
+        <text>同学圈</text>
+        <view class="pipixia">皮皮虾</view>
+      </navigator>
+      <navigator class="student-b">
+        <mp-icon class="all1-icon" icon="tv" color="#d1f2f9" size="{{25}}"></mp-icon>
+        <text>黑板报</text>
+      </navigator>
+    </view>
+    <view class="shop-wrap">
+      <navigator  class="shop-a">
+        <mp-icon class="all2-icon" icon="home" color="#d1f2f9" size="{{25}}"></mp-icon>
+        <text class="coment">帮帮商场</text>       
+      </navigator>
+      <navigator class="shop-a">
+        <mp-icon class="all2-icon" icon="time" color="#d1f2f9" size="{{25}}"></mp-icon>
+        <text class="coment">卡券礼包</text>
+      </navigator>
+      <navigator class="shop-a">
+        <mp-icon class="all2-icon" icon="info" color="#d1f2f9" size="{{25}}"></mp-icon>
+        <text class="coment">悬赏任务</text>
+      </navigator>
+      <navigator class="shop-a border-sole">
+        <mp-icon class="all2-icon" icon="shop" color="#d1f2f9" size="{{25}}"></mp-icon>
+        <text class="coment">作业问答</text>
+      </navigator>
+    </view>
   </view>
   <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+    <view>
+      <image class="photo-hearde" src="../../image/头像_03.jpg"></image>
+      <view class="message">
+        <view>姓名：</view>
+        <view>学校：</view>
+        <view>学号：</view>
+      </view>
+      <navigator class="login-wrap">登录 / 注册</navigator>
+    </view>
+    <view class="grade-wrap">
+      <text class="grade">LV 0</text>
+      <text>未入江湖</text>
+    </view>
   </view>
+  
 </view>
