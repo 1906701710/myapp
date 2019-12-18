@@ -1,0 +1,57 @@
+.register-wrap{
+  width: 690rpx;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 200rpx;
+  padding-bottom: 100rpx;
+}
+.wrap-circle{
+  position: relative;
+}
+.camera-wrap{
+  position: absolute;
+  top: 116rpx;
+  left: 380rpx;
+  line-height: 50rpx;
+  text-align: center;
+  width: 50rpx;
+  height: 50rpx;
+  background-color: #FF5E3A;
+  border-radius: 25rpx;
+}
+.message-wrap{
+  width: 690rpx;
+  margin: 0 auto;
+  color: #999999;
+}
+.input-name{
+  margin-top: 40rpx;
+  border-bottom: 1px solid #D8D8D8;
+  margin-bottom: 40rpx;
+}
+.gander-wrap{
+  width: 100%;
+  border: 1rpx solid #D8D8D8;
+  line-height: 100rpx;
+  border-radius: 50rpx; 
+}
+.but-boy{
+  text-align: center;
+  width: 50%;
+  display: inline-block;
+}
+.but-girl{
+  text-align: center;
+  width: 50%;
+  display: inline-block;
+}
+.gander-wrap-active{
+  border: 2px solid #FF5E3A;
+  /* box-sizing: border-box; */
+  margin-top: -7rpx;
+  margin-left: -7rpx;
+  border-radius: 70rpx;
+}
+.next-page{
+  margin-top: 100rpx;
+}

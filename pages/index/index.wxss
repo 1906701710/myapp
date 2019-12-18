@@ -3,6 +3,19 @@
   background-color: #F8F8F8;
   overflow: hidden;
 }
+.qiandao-wrap{
+  background-color: #42B8FF;
+  padding-bottom: 20rpx;
+}
+.qiandao{
+  width: 690rpx;
+  margin: 0 auto;
+}
+.qiandao-text{
+  color: white;
+  margin-left: 20rpx;
+  margin-right: 300rpx;
+}
 .nav-wrap{
   box-shadow: 0px 15rpx 15rpx #cccccc;  
   padding-bottom: 50rpx;
@@ -21,8 +34,13 @@
   text-align: center;
 }
 .menu-wrap{
+  border-right: 1px solid ;
+  border-image: linear-gradient(#42B8FF,#62C4FF,#42B8FF) 30 30 ; 
   width: 230px;
   display: inline-block;
+}
+.menu-wrap-one{
+  border-right: none;
 }
 .icon{
   text-align: center;

@@ -1,0 +1,37 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "4325777",
+      "name": "信封",
+      "font_class": "icon--copy",
+      "unicode": "e504",
+      "unicode_decimal": 58628
+    },
+    {
+      "icon_id": "6238902",
+      "name": "签到",
+      "font_class": "qiandao",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "9012308",
+      "name": "皮肤",
+      "font_class": "pifu",
+      "unicode": "e564",
+      "unicode_decimal": 58724
+    },
+    {
+      "icon_id": "10262050",
+      "name": "设 置",
+      "font_class": "shezhi",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    }
+  ]
+}

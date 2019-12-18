@@ -1,0 +1,21 @@
+<view>
+  <view class="register-wrap">
+    <view class="wrap-circle">
+      <mp-icon bindtap="updfile" icon="add2" color="#D8D8D8" size="{{100}}"></mp-icon>
+      <view class="camera-wrap"><mp-icon icon="camera" color="white" size="{{15}}"></mp-icon></view>
+    </view> 
+  </view>
+  <view class="message-wrap">
+    <view class="name-wrap">你的名字</view>
+    <input type="text" class="input-name" maxlength="4"></input>
+    <view>你的年龄</view>
+    <input type="number" class="input-name" maxlength="3"></input>
+    <view class="gander-wrap">
+      <text class="but-boy gander-wrap-active">男士</text>
+      <text class="but-girl">女士</text>
+    </view>
+    
+  </view>
+  <button bindtap="updmesg" type="primary" class="next-page" form-type="submit">下一页</button>
+  
+</view>

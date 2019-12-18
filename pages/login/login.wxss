@@ -1,0 +1,6 @@
+.nav-wrap{
+  width: 690rpx;
+  height: 40rpx;
+  background-color: red;
+  margin:  0 auto;
+}

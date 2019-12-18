@@ -1,15 +1,24 @@
 <!--index.wxml-->
 <view class="container">
+  <view class="qiandao-wrap">
+    <view class="qiandao">
+      <text class="iconfont icon-qiandao"></text>
+      <text class="qiandao-text">未签到</text>
+      <text class="iconfont icon-pifu"></text>
+      <text class="iconfont icon-shezhi"></text>
+      <text class="iconfont icon-icon--copy"></text>
+    </view>
+  </view>
   <view class="nav-wrap">
-    <navigator class="menu-wrap">
+    <navigator url="../logs/logs" open-type="switchTab" class="menu-wrap">
       <mp-icon class="icon" type="field" icon="play2" color="white" size="{{25}}"></mp-icon>
       <text class="concent">我的直播课</text>
     </navigator>
-    <navigator class="menu-wrap">
+    <navigator url="../logs/logs" open-type="switchTab" class="menu-wrap">
       <mp-icon class="icon" type="field" icon="transfer-text" color="white" size="{{25}}"></mp-icon>
       <text class="concent">我的一对一</text>
     </navigator>
-    <navigator class="menu-wrap">
+    <navigator url="../logs/logs" open-type="switchTab" class="menu-wrap menu-wrap-one">
       <mp-icon class="icon" type="field" icon="group-detail" color="white" size="{{25}}"></mp-icon>
       <text class="concent">我的老师</text>
     </navigator>
@@ -59,6 +68,5 @@
       <text class="grade">LV 0</text>
       <text>未入江湖</text>
     </view>
-  </view>
-  
+  </view>  
 </view>
